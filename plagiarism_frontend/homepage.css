@@ -1,0 +1,130 @@
+body {
+  
+    background-color: #030d01e3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+   }
+   .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    height: 50px; 
+ 
+  }
+  
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+
+   body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+   background-image: url(img\ bgm1.webp);
+    background-repeat: no-repeat; 
+    background-position: left top;
+    background-size: 100% auto; 
+    opacity: 0.6;
+   
+  }
+  
+  header {
+    text-align: center;
+    background-color: #0b0404f7;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0e0e0efb;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    color: #0e0e0efb;
+  }
+  
+  nav ul li {
+    margin-left: 25px;
+  }
+  
+  nav ul li a {
+    color: #0d0101f7;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #37f02a07;
+  }
+  
+  
+  nav ul li a:hover {
+    color: #0e0e0e;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #c2fab900;
+    color: #1a1212;
+    text-decoration: none;
+    border-radius: 5
+  }
+  .footer-top { grid-template-columns: 1fr 0.4fr 0.4fr 0.4fr 0.4fr; }
+
+  .footer-brand {
+    grid-column: auto;
+    padding-inline-end: 100px;
+}
+
+
+
+.footer-link {
+  margin: 0 10px; /* Adjust spacing between links as needed */
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.footer-brand{
+  display: flex;
+}
+
+#endbar{
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: start;
+  list-style-type: none;
+}
+
+#social{
+  display: inline-block;
+  margin: 50px;
+}
+
+#features{
+  display: inline-block;
+  margin: 50px;
+}
+
+#membership{
+  display: inline-block;
+  margin: 50px;
+}

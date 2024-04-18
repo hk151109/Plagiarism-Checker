@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding does not affect the total width of elements */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font family */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+   background-image: url(img\ bgm1.webp);
+    background-repeat: no-repeat; 
+    background-position: left top;
+    background-size: 100% auto; 
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img\ bgm1.webp);
+}
+
+div.main {
+    width: 400px;
+    background-color: #ffffff27; /* Light background for the form container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures the child elements do not overflow the rounded corners */
+}
+
+h2 {
+    background-color: #007bffdd; /* A fresh, modern color */
+    color: #fff;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 20px; /* Adds space between title and form elements */
+    text-shadow: none; /* Cleaner look without text shadow */
+    text-align: center;
+}
+
+div.register {
+    padding: 20px;
+    background-color: rgba(36, 33, 33, 0.93); /* Slightly transparent white for depth */
+    color: #333; /* Darker color for better readability */
+    font-size: 16px; /* Adjusted for better readability */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+form#register {
+    margin: 0px; /* Adjusted for a cleaner layout */
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px; /* Adds space between the label and the input */
+    font-style: normal; /* Clearer without italic */
+    color: #f6f6f7fc; 
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: calc(100% - 14px); 
+    border: 1px solid #ccccccf7;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between form fields */
+    background-color: #f9f9f9e9; /* Slightly off-white background */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #007bff; /* Highlight input border when focused */
+    box-shadow: 0 0 5px rgba(239, 242, 244, 0.942); /* Add a soft glow */
+}
+
+input#submit {
+    display: block; 
+    width: 100%; 
+    padding: 10px;
+    background-color: #007bff; /* Matching theme color */
+    color: #401cb40f;
+    margin: auto; 
+    transition: background-color 0.3s ease-in-out; 
+    text-align: center;
+}
+
+input#submit:hover {
+    background-color: #0056b3; 
+    text-align: center;
+}
+
+label, span, h2 {
+    text-shadow: none; /* Removing text shadow for a cleaner look */
+}
+form label{
+    color: rgba(252, 254, 252, 0.941);
+}
+
+
+
+

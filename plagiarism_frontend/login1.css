@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; /* Removed padding to allow full viewport centering */
+    background-image: url('img\ bgm1.webp'); /* Use forward slashes */
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover; /* Changed to cover to ensure full background coverage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+}
+
+.login-container {
+    background-color: #1c0707d3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(61, 200, 26, 0.051);
+    width: 300px;
+    /* Removed opacity setting to keep text readable */
+}
+
+h2, .form-group, .form-group label, .form-group input, button, .links a {
+    color: rgba(254, 248, 248, 0.984); /* Consolidated color styling */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ece2e2;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0057b378;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

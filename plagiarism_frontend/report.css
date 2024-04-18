@@ -1,0 +1,60 @@
+body {
+  
+    background-image: url(img\ bgm1.webp);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+   background-image: url(img\ bgm1.webp);
+    background-repeat: no-repeat; 
+    background-position: left top;
+    background-size: 100% auto; 
+    opacity: 0.6;
+}
+
+.report-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+.summary, .matched-sources, .detailed-report {
+    margin-bottom: 20px;
+}
+
+.score {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+blockquote footer {
+    font-style: italic;
+    color: #666;
+}
