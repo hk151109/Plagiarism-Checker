@@ -19,11 +19,10 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(61, 200, 26, 0.051);
     width: 300px;
-    /* Removed opacity setting to keep text readable */
 }
 
 h2, .form-group, .form-group label, .form-group input, button, .links a {
-    color: rgba(254, 248, 248, 0.984); /* Consolidated color styling */
+    color: black; 
 }
 
 h2 {
